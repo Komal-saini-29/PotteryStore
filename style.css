@@ -1,5 +1,4 @@
 body {
-  background-color: var(--main) !important;
   padding: 0px;
   margin: 0px;
   overflow-x: hidden !important;
@@ -61,7 +60,8 @@ h1 {
 .header-section {
   background-image: url("imgs/section-1-bg.png");
   height: 100vh !important;
-  background-color: var(--khaki);
+  background-color: var(--main) !important;
+
 }
 .row-1 {
   height: 100vh !important;
