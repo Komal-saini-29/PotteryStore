@@ -1,0 +1,128 @@
+body {
+  background-color: var(--main) !important;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden !important;
+  list-style-type: none;
+  font-family: "Sora", sans-serif !important;
+}
+:root {
+  --olive: #769962;
+  --olive-light: #6d8161ed;
+  --main: #f7edde;
+  --white: #fff;
+  --khaki-bg: #e1d9cde8;
+  --khaki-light: #cdc2b4e8;
+}
+p {
+  color: #a4a29e !important;
+  letter-spacing: 2px;
+}
+h1 {
+  color: var(--olive);
+}
+.no-repeat {
+  background-repeat: no-repeat;
+}
+.bg-white {
+  background-color: var(--white);
+}
+.hover-khaki:hover {
+  background-color: var(--khaki-bg);
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #000000;
+  color: var(--white) !important;
+  font-family: "Cagliostro", sans-serif;
+}
+.navbar-brand {
+  color: var(--white) !important;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.nav-items li a {
+  color: var(--white) !important;
+  text-decoration: none !important;
+  padding: 20px;
+}
+.buy-btn {
+  background-color: var(--olive);
+  color: var(--white) !important;
+  border-radius: 20px;
+  border: 1px solid var(--olive);
+  padding: 6px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+ /* HEADER SECTION    */
+.header-section {
+  background-image: url("imgs/section-1-bg.png");
+  height: 100vh !important;
+  background-color: var(--khaki);
+}
+.row-1 {
+  height: 100vh !important;
+  display: grid;
+  justify-content: space-between !important;
+}
+.home-img {
+  width: 620px;
+  height: 620px;
+}
+.main-heading {
+  font-size: 70px;
+  color: var(--olive);
+}
+.btn-2 {
+  border-radius: 0px !important;
+}
+
+/* PRODUCT SECTION   */
+.product-section {
+  background-image: url("imgs/section-bg-2.png");
+}
+
+.product-img {
+  padding: 10%;
+  height: 430px;
+  width: 350px;
+}
+
+/* ABOUT SECTION  */
+.about-section {
+  background-image: url("imgs/section-bg-3.png");
+ 
+}
+.product-type {
+  background-color: var(--khaki-light);
+  height: 310px;
+  width: 260px;
+  color: var(--white);
+}
+.about-cont-img {
+  height: 300px;
+  width: 330px;
+}
+
+/* PRICING SECTION    */
+.price-section {
+  background-image: url("imgs/section-bg-2.png");
+  
+}
+/* .olive-bg {
+  background-color: var(--olive);
+} */
+.price-card {
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  background-color: var(--olive-light) !important;
+}
+.price-card li {
+ letter-spacing:1px;
+  padding: 5px;
+
+}
