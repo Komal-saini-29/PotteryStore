@@ -43,3 +43,67 @@
         </footer>
         
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 22rem; height: 450px;">
+                                <img src="imgs/product-img-6.png" class="card-img-top" style=" height: 450px;" alt="...">
+                              </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-olive " style="width: 22rem; height: 450px;" >
+                                    <div class="card-body">
+                                        <h5 class="card-title  p-4 text-center fw-bold fs-4 olive-bg text-light">Porcelain vase</h5>
+                                        <ul class="list-group list-group-flush ">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                          </ul>
+                                      </div>
+                                      
+                                  </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-4 border">
+                    <div class="card d-flex align-items-center border-0 ">
+                            <nav aria-label="Page navigation example d-flex align-items-end ">
+                                <ul class="pagination ">
+                                  <li class="page-item "><a class="page-link" href="#">Previous</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="">3</a></li>
+                                  <li class="page-item"><a class="page-link" href="">Next</a></li>
+                                </ul>
+                              </nav>
+                          </div>
+                </div>
+              </div>
+        </div>
