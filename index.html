@@ -19,161 +19,36 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@200;400&family=Rajdhani:wght@300;400;500&family=Sora:wght@100;300&display=swap"
         rel="stylesheet" />
-    <link rel="import" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        /* 
-        html {
-            font-size: 16px;
-        } */
-
-        body {
-            background: #f5f6f7;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            line-height: 1.8;
-            font-family: 'Montserrat', sans-serif;
-
-        }
-
-        main {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .card-earthen,
-        .card-ceramic,
-        .card-porcelain {
-            margin: 0 2rem 1rem 0;
-            padding: 0 0 0.5rem 0;
-            width: 15rem;
-            background: #fff;
-            color: #444;
-            text-align: center;
-            border-radius: 1rem;
-            box-shadow: 0.5rem 0.5rem 1rem rgba(51, 51, 51, 0.2);
-            overflow: hidden;
-            transition: all 0.1ms ease-in-out;
-        }
-
-        .card-earthen:hover,
-        .card-ceramic:hover,
-        .card-porcelain:hover {
-            transform: scale(1.02);
-        }
-
-        .card-header {
-            height: 5rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 0.8rem;
-            padding: 1rem 0;
-            color: #fff;
-            clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-        }
-
-        .header-earthen,
-        .btn-earthen {
-            background: rgb(247, 237, 222);
-            background: -moz-linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            background: -webkit-linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            background: linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7edde", endColorstr="#769962", GradientType=1);
-
-        }
-
-        .header-porcelain,
-        .btn-porcelain {
-            background: rgb(247, 237, 222);
-            background: -moz-linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            background: -webkit-linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            background: linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7edde", endColorstr="#769962", GradientType=1);
-        }
-
-        .header-ceramic,
-        .btn-ceramic {
-            background: rgb(247, 237, 222);
-            background: -moz-linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            background: -webkit-linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            background: linear-gradient(90deg, rgba(247, 237, 222, 1) 0%, rgba(118, 153, 98, 1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7edde", endColorstr="#769962", GradientType=1);
-        }
-
-        .card-body {
-            padding: 0.5rem 0;
-        }
-
-        .card-body h2 {
-            font-size: 2rem;
-            font-weight: 700;
-        }
-
-        .card-element-container {
-            color: #444;
-            list-style: none;
-        }
-
-        .btn {
-            margin: 0.5rem 0;
-            padding: 0.7rem 1rem;
-            outline: none;
-            border-radius: 1rem;
-            font-size: 1rem;
-            font-weight: 700;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            transition: all 0.1ms ease-in-out;
-        }
-
-        .btn:hover {
-            transform: scale(0.95);
-        }
-
-        .btn:active {
-            transform: scale(1);
-        }
-
-        .card-element-hidden {
-            display: none;
-        }
-    </style>
 </head>
 
 <body>
     <!-- NAVBAR  -->
     <nav class="navbar navbar-light fixed-top flex justify-content-around header">
         <a class="navbar-brand">
-            <span><img src="imgs/logo-1.png" style="height: 55px; width: 40px" /></span>
+            <span><img src="imgs/logo.png" style="height: 55px; width: 40px" /></span>
             <span>PotteryStore</span>
         </a>
         <div class="nav-items d-flex">
             <li><a href="#purchase">Purchase</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#info">Info</a></li>
         </div>
-        <button class="buy-btn">
-            Buy Now <span><i class="fa-solid fa-cart-shopping"></i></span>
+        <button class="buy-btn ">
+            <a href="" class="text-white" style="text-decoration: none;  "> Buy Now</a> <span><i
+                    class="fa-solid fa-cart-shopping"></i></span>
         </button>
     </nav>
 
     <!-- HEADER SECTION  -->
-    <div class="header-section no-repeat container-fluid ">
+
+<div class="header-section no-repeat ">
+    <div class="container">
         <div class="row row-1 align-items-center">
             <div class="col left-img-cont d-flex justify-content-center ">
-                <img src="imgs/home-img-4.png" class="home-img" />
+                <img src="imgs/home-img-1.png" class="home-img" />
             </div>
             <div class="col right-cont ">
                 <h1 class="main-heading">
@@ -181,15 +56,103 @@
                 </h1>
                 <p class="main-p" style="width:80%;">
                     Dylan Pottery Store aims at providing the best Pottery product in the market.
-                    We respect out customers, and when it comes to material and quality, our all pottery material is
-                    natural and handmade. You will get all kind of Pottery product starting from Porcelain to Ceramic
-                    pottery and including Earthern and Stone Potteries, all in one Store.
+                    We value out clients, and when it comes to material and quality, all of our pottery material is
+                    naturally manufactured and handcrafted. You will get all kind of Pottery product starting from
+                    Porcelain to Ceramic pottery and including Earthen and Stone Potteries, all in one Store.
                 </p>
                 <button class="buy-btn btn-2">Shop Now</button>
             </div>
         </div>
     </div>
+</div>
 
+    <!-- About-SECTION  -->
+
+    <div class="no-repeat bg-white text-center" id="about">
+
+        <div class="about-section">
+            <div class="heading m-4">
+                <h1 class="font-weight-bold">Know Us</h1>
+
+                <p>Long Lasting & 100% Natural material</p>
+            </div>
+
+
+            <br /><br />
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <a href="http://127.0.0.1:5500/Product.html"><img src="imgs/ceramic.png"
+                                        class="about-cont-img" /></a>
+                            </div>
+                            <div class="col">
+                                <a href="http://127.0.0.1:5500/Product.html" style="color: var(--olive); font-size: 2rem;">
+                                    Ceramic
+                                    Product
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-type col">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <a href="http://127.0.0.1:5500/Product.html"><img src="imgs/stoneware-2.png"
+                                        class="about-cont-img" /></a>
+
+                            </div>
+                            <div class="col">
+                                <a href="http://127.0.0.1:5500/Product.html " style="color: var(--olive); font-size: 2rem;">
+                                    Stoneware <br />
+                                    Pottery
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-between roww-2">
+
+                    <div class="product-type col">
+
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <a href="http://127.0.0.1:5500/Product.html">
+                                    <img src="imgs/stoneware-3.png" class="about-cont-img" /></a>
+
+
+                            </div>
+                            <div class="col">
+                                <a href="http://127.0.0.1:5500/Product.html" style="color: var(--olive); font-size: 2rem;">
+                                    Earthenware <br />
+                                    Pottery
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <a href="http://127.0.0.1:5500/Product.html"><img src="imgs/porcelain-2.png"
+                                        class="about-cont-img" /></a>
+
+                            </div>
+                            <div class="col">
+                                <a href=" http://127.0.0.1:5500/Product.html" style="color: var(--olive); font-size: 2rem;">
+                                    Porcelain <br />
+                                    Pottery
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br /> <br>
+    </div>
 
     <!--  Product-SECTION  -->
     <div class="product-section no-repeat bg-white text-center" id="purchase">
@@ -198,8 +161,6 @@
             <h1 class="font-weight-bold ">Pottery Products</h1>
             <p>All kind of products are available</p>
         </div>
-
-
 
         <div class="container-fluid">
             <div class="row d-flex justify-content-between align-items-center m-5">
@@ -310,95 +271,7 @@
         </div>
     </div>
 
-    <hr />
-    <!-- About-SECTION  -->
 
-    <div class="no-repeat bg-white text-center" id="about">
-        <!-- <br /><br /> -->
-
-        <div class="about-section">
-            <div class="heading m-4">
-                <h1 class="font-weight-bold">Know Us</h1>
-
-                <p>Long Lasting & 100% Natural material</p>
-            </div>
-
-
-            <br /><br />
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <a href="http://127.0.0.1:5500/Product.html"><img src="imgs/ceramic.png"
-                                        class="about-cont-img" /></a>
-                            </div>
-                            <div class="col">
-                                <a href="http://127.0.0.1:5500/Product.html" style="color: var(--olive)">
-                                    Ceramic
-                                    Product
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="product-type col">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <a href="http://127.0.0.1:5500/Product.html"><img src="imgs/stoneware-2.png"
-                                        class="about-cont-img" /></a>
-
-                            </div>
-                            <div class="col">
-                                <a href="http://127.0.0.1:5500/Product.html " style="color: var(--olive)">
-                                    Stoneware <br />
-                                    Pottery
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row d-flex justify-content-between">
-
-                    <div class="product-type col">
-
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <a href="http://127.0.0.1:5500/Product.html">
-                                    <img src="imgs/stoneware-3.png" class="about-cont-img" /></a>
-
-
-                            </div>
-                            <div class="col">
-                                <a href="http://127.0.0.1:5500/Product.html" style="color: var(--olive);">
-                                    Earthenware <br />
-                                    Pottery
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <a href="http://127.0.0.1:5500/Product.html"><img src="imgs/porcelain-2.png"
-                                        class="about-cont-img" /></a>
-
-                            </div>
-                            <div class="col">
-                                <a href=" http://127.0.0.1:5500/Product.html" style="color: var(--olive)">
-                                    Porcelain <br />
-                                    Pottery
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br /> <br>
-    </div>
     <hr />
 
     <!-- HIGHLIGHT SECTION   -->
@@ -417,80 +290,55 @@
     </div>
     <br>
     <hr>
-
     <!-- PRICE SECTION   -->
-
-    <div class="heading m-4 text-center">
-        <h1 class="font-weight-bold m-3 pricing">Pricing</h1>
-        <p>get all the products at affordable price</p>
+    <div class="price-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 22rem; height: 450px;">
+                                <img src="imgs/product-img-6.png" class="card-img-top" style=" height: 450px;" alt="...">
+                              </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-olive " style="width: 22rem; height: 450px;" >
+                                    <div class="card-body">
+                                        <h5 class="card-title  p-4 text-center fw-bold fs-4 olive-bg text-light">Porcelain vase</h5>
+                                        <ul class="list-group list-group-flush ">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                          </ul>
+                                      </div>
+                                      
+                                  </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-4 border">
+                    <div class="card d-flex align-items-center border-0 ">
+                            <nav aria-label="Page navigation example d-flex align-items-end ">
+                                <ul class="pagination ">
+                                  <li class="page-item "><a class="page-link" href="#">Previous</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="">3</a></li>
+                                  <li class="page-item"><a class="page-link" href="">Next</a></li>
+                                </ul>
+                              </nav>
+                          </div>
+                </div>
+              </div>
+        </div>
     </div>
-    <main>
-
-        <div class="card-earthen ">
-            <div class="card-header header-earthen">
-                <h1>Earthen</h1>
-            </div>
-            <div class="card-body">
-                <p>
-                <h2> Starting from $20</h2>
-                </p>
-                <div class="card-element-hidden-earthen">
-                    <ul class="card-element-container">
-                        <li class="card-element">2 team members</li>
-                        <li class="card-element">2GB storage</li>
-                        <li class="card-element">1000 request per day</li>
-                        <li class="card-element">20000 users</li>
-                    </ul>
-                    <button class="btn btn-earthen">Order now</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-porcelain">
-            <div class="card-header header-porcelain">
-                <h1>Porcelain</h1>
-            </div>
-            <div class="card-body">
-                <p>
-                <h2> Starting from $20</h2>
-                </p>
-                <div class="card-element-hidden-porcelain">
-                    <ul class="card-element-container">
-                        <li class="card-element">5 team members</li>
-                        <li class="card-element">5GB storage</li>
-                        <li class="card-element">Decorating Material</li>
-                        <li class="card-element">40000 users</li>
-                    </ul>
-                    <button class="btn btn-porcelain">Order now</button>
-                </div>
-            </div>
-        </div>
-        <div class="card-ceramic">
-            <div class="card-header header-ceramic">
-                <h1>Ceramic</h1>
-            </div>
-            <div class="card-body">
-                <p>
-                <h2> Starting from $20</h2>
-                </p>
-                <div class="card-element-hidden-ceramic">
-                    <ul class="card-element-container">
-                        <li class="card-element">Crockery Set</li>
-                        <li class="card-element">Dinner Set </li>
-                        <li class="card-element">Kitchen pan</li>
-                        <li class="card-element">Unlimited users</li>
-                    </ul>
-                    <button class="btn btn-ceramic">Order now</button>
-                </div>
-            </div>
-        </div>
-    </main>
-    <br>
-
-
+   
     <!-- FAQ SECTION -->
     <hr>
-    <div class="faq-section container-fluid no-repeat bg-white text-white text-center ">
+    <div class="faq-section container-fluid no-repeat bg-white text-white text-center " id="info">
 
         <div class="heading m-4">
             <h1 style="padding-top: 8px">FAQs</h1>
@@ -510,9 +358,12 @@
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
                     <div style="text-align: left">
-                        <code style="color: var(--olive);">Our product is 100% natural and handmade. Also, you will get
+                        <code style="color: var(--olive);">
+                            <!-- Our product is 100% natural and handmade. Also, you will get
                 varieties in this too. Example: Crockery, Jugs, Flower Vase,
-                etc.</code>
+                etc. -->
+                Our product is entirely natural and manufactured by hand. You will also find variety in this. For instance, utensils, jugs, flower vases, etc.
+            </code>
                     </div>
                 </div>
             </div>
@@ -529,8 +380,10 @@
                     data-bs-parent="#accordionFlushExample">
                     <div style="text-align: left">
                         <code style="color: var(--olive);">
-                You will get Porcelain, Stoneware, Earthenware and Ceramic
-                products.</code>
+                <!-- You will get Porcelain, Stoneware, Earthenware and Ceramic
+                products. -->
+                You can purchase ceramic, stoneware, earthenware, and porcelain products.
+            </code>
                     </div>
                 </div>
             </div>
@@ -545,8 +398,9 @@
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample">
                     <div style="text-align: left">
-                        <code style="color: var(--olive);">Minimum 4 days. Sometime, the order delays because of some
-                reason.</code>
+                        <code style="color: var(--olive);">
+                            Minimum 4 days. Sometime, the order delays because of some reason.
+            </code>
                     </div>
                 </div>
             </div>
@@ -577,8 +431,9 @@
                 <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
                     data-bs-parent="#accordionFlushExample">
                     <div style="text-align: left">
-                        <code
-                            style="color: var(--olive);">In such case, you just need to place an order through the contact given. We will manage and deliver your order withing 7 days of delivery.</code>
+                        <code style="color: var(--olive);">
+                            In such case, you just need to place an order through the contact given. We will manage and deliver your order withing 7 days of delivery.
+                        </code>
                     </div>
                 </div>
             </div>
@@ -593,57 +448,45 @@
                 <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
                     data-bs-parent="#accordionFlushExample">
                     <div style="text-align: left">
-                        <code
-                            style="color: var(--olive);">Yes, you can send a request for replacing an order within 4 days of recieving it.</code>
+                        <code style="color: var(--olive);">
+                            Yes, you can send a request for replacing an order within 4 days of recieving it.
+                        </code>
                     </div>
                 </div>
             </div>
         </div>
         <br /><br />
     </div>
-    <hr />
 
     <!-- FOOTER SECTION    -->
 
-
-
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Store</h3>
-                        <ul>
-                            <li><a href="#">Sector 46, Noida </a></li>
-
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Contact</h3>
-                        <ul>
-                            <li><a href="#">3353875935 </a></li>
-                            <li><a href="#">potterystore@yahoo.com</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 item text">
-                        <h3>PotteryStore</h3>
-                        <p>Dylan Pottery Store is a one place to find and get all your dreamy collection of beautiful
-                            products. Here, you will get the best quality products. Besides quality, our saying is that
-                            we satisfy our customers' wish and need. </p>
-                    </div>
-                    <div class="col item social"><a href="#">
-                            <i class="fa-solid fa-location-dot"></i>
-                        </a>
-                        <a href="#"><i class="fa-solid fa-square-phone-flip"></i></a>
-                        <a href="#"><i class="fa-solid fa-g"></i></a><a href="#"><i class="fa-solid fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-                <p class="copyright">PotteryStore © 2022</p>
-            </div>
-        </footer>
-    </div>
+    <section class="footer footer-dark">
+        <div class="social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-snapchat"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+  
+        <ul class="list">
+          <li>
+            <a href="#">Purchase</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Info</a>
+          </li>
+          <li>
+            <a href="mailto:sainikomal2905@gmail.com">Contact</a>
+          </li>
+        </ul>
+        <p class="copyright">Pottery Store @ 2022</p>
+      </section>
 
     <!-- JavaScript CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -658,6 +501,9 @@
             backSpeed: 150,
             loop: true
         })
+
+
+ 
     </script>
 
 

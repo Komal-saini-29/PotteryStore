@@ -1,0 +1,45 @@
+ <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Store</h3>
+                        <ul>
+                            <li><a href="#">Sector 46, Noida </a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li><a href="#">3353875935 </a></li>
+                            <li><a href="#">dylanpotterystore@yahoo.com</a></li>
+
+                        </ul>
+                       
+                    </div>
+                    <div class="col-md-7 item text">
+                        <h3>PotteryStore</h3>
+                        <p>
+                            <!-- Dylan Pottery Store is a one place to find and get all your dreamy collection of beautiful
+                            products. Here, you will get the best quality products. Besides quality, our saying is that
+                            we satisfy our customers' wish and need. -->
+                            Dylan Pottery Store is a one-stop shop where you can discover and purchase your entire
+                            wishlist of exquisite goods. You can purchase the highest-quality goods here. In addition to
+                            quality, we also strive to meet the wants and needs of our clients.
+                        </p>
+                        
+                    </div>
+                    <div class="col item social "><a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </a>
+                    <a href="#"><i class="fa-solid fa-square-phone-flip"></i></a>
+                    <a href="#"><i class="fa-solid fa-g"></i></a><a href="#"><i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+                </div>
+                <p class="copyright">PotteryStore © 2022</p>
+            </div>
+        </footer>
+        
+    </div>
