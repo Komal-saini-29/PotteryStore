@@ -17,7 +17,7 @@ body {
 }
 
 p {
-  color: #a49a86 !important;
+  color: rgb(123, 118, 108) !important;
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif !important;
 }
