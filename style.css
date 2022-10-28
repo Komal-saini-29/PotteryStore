@@ -17,7 +17,7 @@ body {
 }
 
 p {
-  color: #a4a29e !important;
+  color: #a49a86 !important;
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif !important;
 }
@@ -143,41 +143,12 @@ h1 {
 }
 .about-a:hover{
 text-decoration: underline!important;
-}
-
-
-/* PRICING SECTION    */
-.price-section {
-  background-image: url("imgs/pricing-bg.png");
-}
-
-/* .olive-bg {
-  background-color: var(--olive);
-} */
-.price-card {
-  height: 230px !important;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  width: 100px !important;
-  margin: 30px;
-  border: 2px solid var(--olive-light) !important;
-}
-.card-1 {
-  max-width: 70% !important;
-}
-.card-2 {
-  max-width: 70% !important;
-}
-
-.price-card li {
-  letter-spacing: 1px;
-  padding: 2px !important;
-  /* text-align: left; */
+transform: scale(0.95);
 }
 
 /* FAQ SECTION   */
 .faq-section {
-  background-image: url("Imgs/faq-img.png");
+  background-image: url("Imgs/faq-img.png") !important;
 }
 /* HIGHLIGHT SECTION   */
 .highlight-section {
@@ -185,7 +156,7 @@ text-decoration: underline!important;
 }
 .layout-img {
   height: 280px;
-  width: 350px;
+  width: 380px;
 }
 
 /* FOOTER SECTION    */
@@ -217,8 +188,7 @@ text-decoration: underline!important;
   }
 }
 
-@media only screen and (max-width: 707px) {
-}
+
 
 /* NEW FOOTER CSS */
 .footer {
@@ -330,6 +300,7 @@ text-decoration: underline!important;
     align-items: center;
     margin: 2%;
   }
+
   .hover-khaki{
     width: 50%!important;
     align-items: center;
@@ -382,6 +353,15 @@ text-decoration: underline!important;
     width: 100% !important;
   }
 }
+@media screen and (max-width: 867px) {
+  .right-cont{
+    width: 70% !important;
+    margin-right: 73px;
+  }
+  .layout-img{
+    margin-right: 92px;
+  }
+}
 @media screen and (max-width: 750px) {
   .main-heading {
     font-size: 26px;
@@ -392,7 +372,7 @@ text-decoration: underline!important;
 @media screen and (max-width: 785px) {
   .col--1{
     display: flex;
-    flex-direction: column;
+    flex-direction: column!important;
     justify-content:center;
     align-items: center;
     margin: 2%;
@@ -418,6 +398,9 @@ text-decoration: underline!important;
   .nav-items li {
     padding: 6px !important;
   }
+  .main-heading{
+    font-size: 2.4rem;
+  }
  
 }
 @media screen and (max-width: 650px) {
@@ -438,4 +421,130 @@ text-decoration: underline!important;
     width: 300px;
     height: 280px;
   }
+  .right--cont{
+    margin-top: -27% !important;
+  
+  }
+}
+@media screen and (max-width: 785px){
+  .product-img {
+    height: 350px;
+    width: 227px;
+    margin-left: -5%;
+}
+}
+
+/* HEADER RESPONSIVE */
+@media screen and (max-width: 962px){
+  .main-heading{
+  font-size: 35px;
+}
+  }
+@media screen and (max-width: 730px){
+  .main-heading{
+  font-size: 28px;
+}
+  }
+@media screen and (max-width: 462px){
+  .home-img{
+  margin-top:  31% !important;
+}
+  }
+@media screen and (max-width: 590px){
+  .home-img{
+  margin-top:  28% !important;
+}
+  }
+
+@media screen and (max-width: 646px) {
+ 
+  .earthen{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .porcelain{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .stoneware{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .ceramic{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .earthen-img,
+  .porcelain-img,
+  .ceramic-img,
+  .stoneware-img{
+    height: 234px;
+    width: 245px;
+  }
+  .about-a{
+    text-align: center;
+  }
+  .home-img{
+    margin-top:  28% !important;
+  }
+}
+@media screen and (max-width: 615px) {
+ 
+  .layout-img{
+    height: 300px;
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 650px){
+.home-img {
+    margin-top: 28% !important;
+    width: 300px;
+    height: 280px;
+}
+.right--cont{
+  margin-left: 10%;
+}
+.main-heading{
+  font-size: 2.4rem;
+}
+}
+@media screen and (max-width: 624px){
+
+.right--cont{
+  margin-left: 10%;
+}
+
+}
+@media screen and (max-width: 490px){
+
+.main-heading{
+  font-size: 2.2rem;
+
+}
+
+}
+@media screen and (max-width: 435px){
+
+.home-img{
+margin-top: 37%!important;
+}
+}
+@media screen and (max-width: 367px){
+
+.main-heading{
+font-size: 1.7rem;
+}
+}
+@media screen and (max-width: 400px){
+
+.main-heading{
+font-size: 1.4rem;
+}
+}
+@media screen and (max-width: 450px){
+
+.home-img{
+  margin-top: 37%!important;
+}
 }
